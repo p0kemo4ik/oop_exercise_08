@@ -20,7 +20,7 @@ void pentagon::print(std::ostream& os) const {
     for(int i = 0; i < 5; i++){
         os << Vertexs[i] <<' ' ;
     }
-    os << '\n' << "Center: "<< center() <<" Area: " << area() << '\n';
+    os << '\n' << "Pentagon" << '\n' << "Center: "<< center() <<" Area: " << area() << '\n' <<'\n';
 }
 
 void pentagon::printFile(std::ofstream& of) const {

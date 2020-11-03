@@ -20,7 +20,7 @@ void octagon::print(std::ostream& os) const {
     for(int i = 0; i < 8; i++){
         os << Vertexs[i] <<' ';
     }
-    os << '\n'<< "Center: " << center() << " Area: "<< area() << '\n';
+    os << '\n'<< "Octagon" <<'\n' << "Center: " << center() << " Area: "<< area() << '\n' <<'\n';
 }
 
 void octagon::printFile(std::ofstream& of) const {

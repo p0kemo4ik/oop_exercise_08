@@ -9,7 +9,7 @@
 
 void help() {
     std::cout << "help - print this menu\n"
-                 "add <square, rectangle or trapezoid> <vertices> - add a figure\n"
+                 "add <pentagon, hexagon, octagon> <vertices> - add a figure\n"
                  "quit\n";
 }
 
@@ -53,7 +53,7 @@ int main(int argc,char* argv[]) {
         } else {
             std::cout << "Wrong command\n";
         }
-    }./
+    }
     sub.stop = true;
     sub.cond_var.notify_all();
     sub_thread.join();

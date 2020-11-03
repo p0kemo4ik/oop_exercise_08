@@ -1,0 +1,9 @@
+add pentagon 2 2 2 2 2 2 2 2 2 2
+add hexagon  3 3 3 3 3 3 3 3 3 3 3 3
+add octagon  4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4
+add pentagon 5 5 5 5 5 5 5 5 5 5
+add hexagon 2 2 2 2 2 2 2 2 2 2 2 2
+add pentagon 3 3 3 3 3 3 3 3 3 3
+add hexagon 5 5 5 5 5 5 5 5 5 5 5 5
+add octagon 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6
+quit

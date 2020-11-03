@@ -20,7 +20,7 @@ void hexagon::print(std::ostream& os) const {
     for(int i = 0; i < 6; i++){
         os << Vertexs[i] <<' ';
     }
-    os << '\n' << "Center:" << center() << " Area: " << area() << '\n';
+    os << '\n'<< "Hexagon" << '\n' << "Center:" << center() << " Area: " << area() << '\n' << '\n';
 }
 
 void hexagon::printFile(std::ofstream& of) const {
